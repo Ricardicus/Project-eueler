@@ -13,7 +13,6 @@ int shift(unsigned int,int);
 
 int main(void)
 {
-
 	int nbr_of_primes = 10000000;
 	unsigned int * primes = calloc(nbr_of_primes,sizeof(int));
 
