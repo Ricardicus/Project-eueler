@@ -33,7 +33,6 @@ if __name__=="__main__":
 				s2 = s2[:len(s2)-1]
 			if(a and b):
 				sum += q
-				print q
 	print 'resulting sum is: ',sum
 
 
