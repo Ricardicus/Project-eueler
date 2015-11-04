@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <time.h>
 
 long sumprimes(unsigned long maxlimit)
 {
@@ -46,9 +45,6 @@ long sumprimes(unsigned long maxlimit)
 
 int main()
 {
-	time_t start,end;
-	start = time(NULL);
 	long sum = sumprimes(2000000);
-	end = time(NULL);
 	printf("Sum: %ld\n",sum);
 }
