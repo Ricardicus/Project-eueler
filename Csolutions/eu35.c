@@ -53,6 +53,7 @@ int main(void)
 	}
 
 	printf("there are %i circular primes under %i \n",nbr_circular_primes,p);
+	free(primes);
 
 	return EXIT_SUCCESS;
 }
